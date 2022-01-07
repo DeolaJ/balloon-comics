@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }: AppProps): ReactNode {
           sizes="16x16"
           href="https://res.cloudinary.com/dzpntisxj/image/upload/v1618660362/digital-art/IMG_4589_g6a1tx.png"
         />
-        <meta name="description" content="Balloon Comics" />
+        <meta name="description" content="Democratizing comics and meme culture" />
 
         <meta
           name="twitter:image:src"
@@ -53,7 +53,7 @@ function MyApp({ Component, pageProps }: AppProps): ReactNode {
         <meta name="twitter:site" content="Balloon Comics" />
 
         <meta name="twitter:title" content="Balloon Comics" />
-        <meta name="twitter:description" content="Balloon Comics" />
+        <meta name="twitter:description" content="Democratizing comics and meme culture" />
         <meta
           property="og:image"
           content="https://res.cloudinary.com/dzpntisxj/image/upload/ar_1:1,b_rgb:f7d3c8,c_fill,co_rgb:ffffff,g_auto,w_1000/v1618660362/digital-art/IMG_4589_g6a1tx.png"
@@ -64,7 +64,7 @@ function MyApp({ Component, pageProps }: AppProps): ReactNode {
 
         <meta property="og:url" content="www.ballooncomics.com" />
 
-        <meta property="og:description" content="Balloon Comics" />
+        <meta property="og:description" content="Democratizing comics and meme culture" />
       </Head>
 
       <AnimatePresence exitBeforeEnter>

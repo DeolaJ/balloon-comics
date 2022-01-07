@@ -1,0 +1,13 @@
+{
+  "eslint.validate": ["javascript", "html"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "stylelint.packageManager": "yarn",
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "editor.formatOnSave": true,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

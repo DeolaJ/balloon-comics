@@ -32,7 +32,7 @@ const Social: FC = () => (
       </li>
       <li className="inline-block w-5 mx-4">
         <a
-          href="https://twitter.com/Deo_Joe"
+          href="https://twitter.com/ballooncomics_"
           target="_blank"
           rel="nofollow noopener noreferrer"
           aria-label="Twitter">
@@ -44,7 +44,7 @@ const Social: FC = () => (
       </li>
       <li className="inline-block w-5 mx-4 opensea-icon">
         <a
-          href="https://opensea.io/deola"
+          href="https://opensea.io/collection/balloon-comics-1"
           target="_blank"
           rel="nofollow noopener noreferrer"
           aria-label="Opensea">

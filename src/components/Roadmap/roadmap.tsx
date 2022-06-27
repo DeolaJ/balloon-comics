@@ -28,11 +28,20 @@ const roadmap = [
     list: [
       {
         text: 'Launch the initial collection of characters on Opensea',
-        checked: false,
+        checked: true,
       },
       {
         text: 'Create the individual pages for each characters',
         checked: false,
+      },
+    ],
+  },
+  {
+    title: 'In the next 1-month period (June)',
+    list: [
+      {
+        text: 'Start the second collection of characters on Opensea',
+        checked: true,
       },
     ],
   },

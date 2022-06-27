@@ -66,8 +66,10 @@ const Home: FC<ComicsTemplatesProps> = ({ comicsTemplates }) => {
       <Section style={{ backgroundColor: '#ff8e64' }}>
         <SpacedList className="p-8 md:p-24">
           <div>
-            <SectionTitle className="text-left text-white">NFT Collections</SectionTitle>
-            <SectionTitleSub className="text-left text-white">
+            <SectionTitle className="text-left text-white" style={{ color: 'white' }}>
+              NFT Collections
+            </SectionTitle>
+            <SectionTitleSub className="text-left text-white" style={{ color: 'white' }}>
               Collection of characters
             </SectionTitleSub>
           </div>
@@ -77,6 +79,7 @@ const Home: FC<ComicsTemplatesProps> = ({ comicsTemplates }) => {
                 text="#Alpha Issue"
                 size="lg"
                 className="inline-block w-full text-white border-white"
+                style={{ color: 'white', borderColor: 'white' }}
               />
             </a>
             <a href="https://opensea.io/collection/balloon-comics-2">
@@ -84,6 +87,7 @@ const Home: FC<ComicsTemplatesProps> = ({ comicsTemplates }) => {
                 text="#Beta Issue"
                 size="lg"
                 className="inline-block ml-0 w-full text-white border-white"
+                style={{ color: 'white', borderColor: 'white' }}
               />
             </a>
           </article>

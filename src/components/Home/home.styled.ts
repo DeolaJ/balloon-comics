@@ -101,3 +101,13 @@ export const HomeImageScroller = styled.article`
     }
   }
 `;
+
+export const MidSectionWrapper = styled.section`
+  background-color: #dadada;
+`;
+
+export const ImageWrapper = styled.article`
+  img {
+    filter: drop-shadow(rgba(60, 100, 177, 0.03) 0px 4px 34px);
+  }
+`;

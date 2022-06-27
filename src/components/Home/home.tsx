@@ -51,8 +51,8 @@ const Home: FC<ComicsTemplatesProps> = ({ comicsTemplates }) => {
       </HomeWrapper>
 
       <MidSectionWrapper>
-        <ImageWrapper className="w-3/4 px-5 py-8 md:px-12 md:py-24 mx-auto text-center sm:w-2/3">
-          <SectionTitleSub>Meet the Characters</SectionTitleSub>
+        <ImageWrapper className="w-3/4 px-5 py-12 md:px-12 md:py-24 mx-auto text-center sm:w-2/3">
+          <SectionTitleSub className="mb-2 sm:mb-4">Meet the Characters</SectionTitleSub>
           <Image
             src="https://res.cloudinary.com/dzpntisxj/image/upload/v1656340480/Covers/41629DBB-51E0-472E-87F0-03B05B8FA0D3_dyic1u.png"
             width={1640}
@@ -66,10 +66,8 @@ const Home: FC<ComicsTemplatesProps> = ({ comicsTemplates }) => {
       <Section style={{ backgroundColor: '#ff8e64' }}>
         <SpacedList className="p-8 md:p-24">
           <div>
-            <SectionTitle className="text-left text-white" style={{ color: 'white' }}>
-              NFT Collections
-            </SectionTitle>
-            <SectionTitleSub className="text-left text-white" style={{ color: 'white' }}>
+            <SectionTitle className="text-left text-white">NFT Collections</SectionTitle>
+            <SectionTitleSub className="text-left text-white">
               Collection of characters
             </SectionTitleSub>
           </div>
@@ -79,7 +77,6 @@ const Home: FC<ComicsTemplatesProps> = ({ comicsTemplates }) => {
                 text="#Alpha Issue"
                 size="lg"
                 className="inline-block w-full text-white border-white"
-                style={{ color: 'white', borderColor: 'white' }}
               />
             </a>
             <a href="https://opensea.io/collection/balloon-comics-2">
@@ -87,7 +84,6 @@ const Home: FC<ComicsTemplatesProps> = ({ comicsTemplates }) => {
                 text="#Beta Issue"
                 size="lg"
                 className="inline-block ml-0 w-full text-white border-white"
-                style={{ color: 'white', borderColor: 'white' }}
               />
             </a>
           </article>

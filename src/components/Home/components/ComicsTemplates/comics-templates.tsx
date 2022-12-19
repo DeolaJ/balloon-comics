@@ -1,9 +1,8 @@
 import { ReactElement } from 'react';
+import Link from 'next/link';
 
 import ComicsTemplateGrid from '../ComicsTemplatesGrid';
 import { Section, SectionTitleSub } from '../../../Shared/Section';
-import Link from 'next/link';
-import PrimaryButton from '../../../Shared/Button/PrimaryButton';
 
 import { CloudinaryImageProps } from '../../../../types';
 
@@ -17,12 +16,13 @@ function ComicsTemplates({ comicsTemplates }: ComicsTemplatesProps): ReactElemen
       <SectionTitleSub>Balloon Comics Templates</SectionTitleSub>
       <article className="my-4">
         <p>
-          To use any of the templates
-          <Link href="mailto:balloooncomics@gmail.com">
-            <a>
-              <PrimaryButton text="Get in touch" className="inline-block ml-4" />
+          To use any of the templates, please read this{` `}
+          <Link href="https://deolaj.vercel.app/notes/balloon-comics-templates-guide">
+            <a className="text-purple-700 hover:underline" target="_blank">
+              guide
             </a>
           </Link>
+          {` first`}
         </p>
       </article>
       <ComicsTemplateGrid comicsTemplates={comicsTemplates} />

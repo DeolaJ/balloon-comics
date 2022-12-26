@@ -17,7 +17,7 @@ function ComicsTemplates({ comicsTemplates }: ComicsTemplatesProps): ReactElemen
       <article className="my-4">
         <p>
           To use any of the templates, please read this{` `}
-          <Link href="https://deolaj.vercel.app/notes/balloon-comics-templates-guide">
+          <Link href="https://deolaj.com/notes/balloon-comics-templates-guide">
             <a className="text-purple-700 hover:underline" target="_blank">
               guide
             </a>
